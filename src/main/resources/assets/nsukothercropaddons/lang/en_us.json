@@ -1,0 +1,9 @@
+{
+  "source.nsukothercropaddons.concoction": "Concoction!",
+  "source.nsukothercropaddons.teastory": "Tea the Story : Recount",
+  "source.nsukothercropaddons.bakeries": "Bakeries",
+  "gui.nsukcropapi.waiting_soil": "Waiting for soil: %s",
+  "gui.nsukcropapi.trellis.waiting_item": "Waiting for: %s",
+  "gui.nsukcropapi.trellis.placing_soil": "Placing soil",
+  "gui.nsukcropapi.trellis.placing_item": "Building trellis: %s"
+}

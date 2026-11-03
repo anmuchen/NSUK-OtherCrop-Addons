@@ -1,0 +1,9 @@
+{
+  "source.nsukothercropaddons.concoction": "田园调酿！",
+  "source.nsukothercropaddons.teastory": "茶风·纪事：追叙",
+  "source.nsukothercropaddons.bakeries": "烘焙坊",
+  "gui.nsukcropapi.waiting_soil": "等待土壤：%s",
+  "gui.nsukcropapi.trellis.waiting_item": "等待材料：%s",
+  "gui.nsukcropapi.trellis.placing_soil": "正在铺土",
+  "gui.nsukcropapi.trellis.placing_item": "正在搭架：%s"
+}

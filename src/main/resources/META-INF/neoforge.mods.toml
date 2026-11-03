@@ -1,0 +1,74 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="GPL 3.0"
+
+[[mods]]
+modId="nsukothercropaddons"
+version="1.0.0"
+displayName="NSUK:其它作物附属"
+authors="XiaoLiang小亮"
+description='''
+NSUK 农田盒作物附属：把「田园调酿！」「茶风·纪事：追叙」「烘焙坊」的作物接给雇佣农民。
+
+收录：
+· 田园调酿 —— 卷心菜、玉米、棉花、薄荷、洋葱、马勃菌、辣椒、番茄、向日葵、幽灵死神椒
+· 茶风·纪事 —— 辣椒、白菜、茶树（剪刀采茶）；旧存档里的茶风西瓜仍可继续运行（界面已隐藏）
+· 烘焙坊 —— 番茄、咖啡、芋头
+
+雇农会把选定区域铺成湿润耕地（箱子里备泥土），不再只在原本有泥土的格子上种。
+水渠照常挖：芋头、番茄等普通作物保持原版的水渠灌溉，耕地不会干枯退化。
+只有生咖啡豆、茶树、幽灵死神椒、马勃菌不挖水渠；咖啡的耕地由附属定期补湿。
+马勃菌只要脚下是完整方块即可，不翻地、不挖水渠，连原来水渠那一列也会种。
+箱子里备好对应的种子（以及泥土 / 灵魂土）即可。不收录水稻等需要泡水的作物。
+'''
+
+[[dependencies.nsukothercropaddons]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.65,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nsukothercropaddons]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.nsukothercropaddons]]
+modId="nsukcropapi"
+type="required"
+versionRange="[1.0.0,)"
+ordering="AFTER"
+side="BOTH"
+reason="农田盒作物注册表与五阶段作业接管由 NSUK 作物 API 提供"
+
+[[dependencies.nsukothercropaddons]]
+modId="simukraft"
+type="required"
+versionRange="[1.0,)"
+ordering="AFTER"
+side="BOTH"
+reason="Hooks the NSUK farmland box crop list and farmer work cycle."
+
+[[dependencies.nsukothercropaddons]]
+modId="concoction"
+type="optional"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.nsukothercropaddons]]
+modId="teastory"
+type="optional"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.nsukothercropaddons]]
+modId="bakeries"
+type="optional"
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

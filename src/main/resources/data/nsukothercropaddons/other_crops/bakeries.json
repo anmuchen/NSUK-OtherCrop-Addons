@@ -1,0 +1,26 @@
+{
+  "mod": "bakeries",
+  "prefix": "bk",
+  "label": "source.nsukothercropaddons.bakeries",
+  "crops": [
+    {
+      "id": "tomato",
+      "seed": "bakeries:tomato",
+      "plant": "bakeries:tomato",
+      "fill_farmland": true
+    },
+    {
+      "id": "coffee",
+      "seed": "bakeries:raw_coffee_bean",
+      "plant": "bakeries:coffee_plant",
+      "fill_farmland": true,
+      "no_water": true
+    },
+    {
+      "id": "taro",
+      "seed": "bakeries:taro",
+      "plant": "bakeries:taro",
+      "fill_farmland": true
+    }
+  ]
+}

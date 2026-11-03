@@ -1,0 +1,19 @@
+{
+  "mod": "teastory",
+  "prefix": "ts",
+  "label": "source.nsukothercropaddons.teastory",
+  "crops": [
+    {
+      "id": "chili",
+      "seed": "teastory:chili_seeds",
+      "plant": "teastory:chili_plant",
+      "fill_farmland": true
+    },
+    {
+      "id": "chinese_cabbage",
+      "seed": "teastory:chinese_cabbage_seeds",
+      "plant": "teastory:chinese_cabbage_plant",
+      "fill_farmland": true
+    }
+  ]
+}

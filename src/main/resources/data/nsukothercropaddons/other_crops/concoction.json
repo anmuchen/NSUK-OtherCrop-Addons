@@ -1,0 +1,67 @@
+{
+  "mod": "concoction",
+  "prefix": "con",
+  "label": "source.nsukothercropaddons.concoction",
+  "crops": [
+    {
+      "id": "cabbage",
+      "seed": "concoction:cabbage_seeds",
+      "plant": "concoction:crop_cabbage",
+      "extra_harvest_blocks": ["concoction:cabbage_block"],
+      "fill_farmland": true
+    },
+    {
+      "id": "corn",
+      "seed": "concoction:corn_seeds",
+      "plant": "concoction:crop_corn",
+      "harvest_height": 3,
+      "fill_farmland": true
+    },
+    {
+      "id": "cotton",
+      "seed": "concoction:cotton",
+      "plant": "concoction:crop_cotton",
+      "fill_farmland": true
+    },
+    {
+      "id": "mint",
+      "seed": "concoction:mint_seeds",
+      "plant": "concoction:crop_mint",
+      "extra_harvest_blocks": ["concoction:mint"],
+      "harvest_height": 2,
+      "fill_farmland": true
+    },
+    {
+      "id": "onion",
+      "seed": "concoction:onion",
+      "plant": "concoction:crop_onion",
+      "fill_farmland": true
+    },
+    {
+      "id": "spicy_pepper",
+      "seed": "concoction:spicy_pepper_seeds",
+      "plant": "concoction:crop_spicy_pepper",
+      "fill_farmland": true
+    },
+    {
+      "id": "tomato",
+      "seed": "concoction:tomato_seeds",
+      "plant": "concoction:crop_tomato",
+      "fill_farmland": true
+    },
+    {
+      "id": "sunflower",
+      "seed": "concoction:sunflower_seeds",
+      "plant": "concoction:sunflower",
+      "fill_farmland": true
+    },
+    {
+      "id": "nether_pepper",
+      "seed": "concoction:reapper_seeds",
+      "plant": "concoction:nether_pepper_crop",
+      "soil_blocks": ["concoction:soulland"],
+      "soil_item": "concoction:soulland",
+      "replace_soil": true
+    }
+  ]
+}
